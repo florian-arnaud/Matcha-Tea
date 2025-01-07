@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Matcha Tea</title>
     <!-- CSS-->
     <link rel="stylesheet" href="Masha3.css">
     <link rel="stylesheet" href="footer.css">
-    <title>Accueil - Matcha Tea</title>
     <!-- FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <!-- FONT AWESOME-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://kit.fontawesome.com/fadd7373cd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -23,84 +22,92 @@
         <nav class="mobile">
             <ul>
                 <li><i class="fa-solid fa-bars"></i></li>
-                <li>
-                    <a href="index.html">
-                        <h1>Matcha Tea</h1>
-                    </a>
-                </li>
+                <li><a href="index.html"><h1>Matcha Tea</h1></a></li>
                 <li>
                     <div>
                         <i class="fa-solid fa-cart-shopping"></i>
                         <i class="fa-solid fa-user"></i>
                     </div>
                 </li>
-
             </ul>
         </nav>
     </header>
 
     <header class="desktop">
         <ul>
-
-            <li>
-                <a href="index.html">
-                    <h1>Matcha Tea</h1>
-                </a>
-            </li>
+            <li><a href="index.html"><h1>Matcha Tea</h1></a></li>
             <li>
                 <div>
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-solid fa-user"></i>
                 </div>
             </li>
-
         </ul>
     </header>
-<main class="contact-form-container">
-        <h2>Formulaire de Contact</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
-            </div>
-            <div class="form-group">
-                <label for="sex">Sexe :</label>
-                <select id="sex" name="sex" required>
-                    <option value=""> Sélectionnez </option>
-                    <option value="male">Homme</option>
-                    <option value="female">Femme</option>
-                    <option value="other">Autre</option>
-                    <option value="prefer-not-say">Préfére ne pas répondre</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="favorite-tea">Thé préféré :</label>
-                <input type="text" id="favorite-tea" name="favorite-tea" placeholder="Votre thé préféré (optionnel)">
-            </div>
-            <div class="form-group">
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Envoyer</button>
-            </div>
-        </form>
-    </main>
-    <aside class="desktop">
-        <nav>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="histoire.html">Histoire</a></li>
-                <li><a href="ventes.html">Ventes</a></li>
-            </ul>
-        </nav>
-    </aside>
-    
+
+    <div class="container">
+        <aside class="desktop">
+            <nav>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="ventes.html">Ventes</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="contact-form-container">
+            <h2>Formulaire de Contact</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                </div>
+                <div class="form-group">
+                    <label for="sex">Sexe :</label>
+                    <select id="sex" name="sex" required>
+                        <option value="">Sélectionnez</option>
+                        <option value="male">Homme</option>
+                        <option value="female">Femme</option>
+                        <option value="other">Autre</option>
+                        <option value="prefer-not-say">Préfère ne pas répondre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="favorite-tea">Thé préféré :</label>
+                    <input type="text" id="favorite-tea" name="favorite-tea" placeholder="Votre thé préféré (optionnel)">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Votre message..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- Section "Contactez-nous" déplacée hors du <main> -->
+        <section class="cont">
+            <h1>Contactez-nous</h1>
+            <p>Notre équipe est à votre disposition pour répondre à toutes vos questions et vous conseiller au mieux sur les sélections de produits ou toute autre demande.</p>
+        </section>
+        <div class="slider">
+            <div class="slides">
+                <!-- Diapos -->
+                <img src="img/fullsizeoutput_7fef-1152x1536.jpeg" alt="Image 1">
+                <img src="img/OIP (1).jpg" alt="Image 2">
+                <img src="img/OIP.jpg" alt="Image 3">
+            </div class="popo">
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: large;">Discutons autour d'une bonne tasse de Thé</p>
+           </div>
+    </div>
+
     <footer>
         <nav>
             <ul>
@@ -117,21 +124,18 @@
                 <li>Contact</li>
                 <li>FAQ</li>
                 <li>Suivi de commandes</li>
-
             </ul>
 
             <ul>
                 <li><h3>Boutique</h3></li>
-                <li>88 Rue M. Berliet 69008 Lyon</li>
+                <li>88 Rue M. Berliet, 69008 Lyon</li>
                 <li>Ouvert du Lundi au Vendredi de 9h à 18h</li>
                 <li><i class="fa-solid fa-phone"></i> 09 59 97 80 00</li>
-                <li>Politique de confidentialité</li>
-                <li>Mentions légales</li>
-                <box-icon type='logo' name='linkedin'></box-icon>
-                <box-icon name='envelope' type='solid' ></box-icon>
+                <a href=""><box-icon type='solid' name='envelope'></box-icon></a>
+                <a href=""><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                <a href=""><box-icon name='linkedin-square' type='logo' ></box-icon></a>
             </ul>
         </nav>
     </footer>
 </body>
-
 </html>
