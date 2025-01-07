@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactez-nous - Matcha Tea</title>
+    <!-- CSS-->
     <link rel="stylesheet" href="Masha3.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="footer.css">
+    <title>Accueil - Matcha Tea</title>
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/fadd7373cd.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        
-        <h1 class="title">Matcha Tea</h1>
-        <div class="cart">
-            <a href="#" class="cart-link">
-                <span class="cart-icon">🛒</span>
-            </a>
-        </div>
-      
+    <header>
+        <nav class="mobile">
+            <ul>
+                <li><i class="fa-solid fa-bars"></i></li>
+                <li>
+                    <a href="index.html">
+                        <h1>Matcha Tea</h1>
+                    </a>
+                </li>
+                <li>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
     </header>
-   
-     <!-------------Img----------------->
- <img src="img/R.jpg" alt="Thé">
 
+    <header class="desktop">
+        <ul>
 
+            <li>
+                <a href="index.html">
+                    <h1>Matcha Tea</h1>
+                </a>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </li>
 
-      <!-------------Img----------------->
-    <!-- Formulaire de contact -->
-    <main class="contact-form-container">
+        </ul>
+    </header>
+<main class="contact-form-container">
         <h2>Formulaire de Contact</h2>
         <form action="#" method="post">
             <div class="form-group">
@@ -61,45 +90,48 @@
             </div>
         </form>
     </main>
-      <section class="box">
-      <h1> Contactez-nous</h1>
-     <p> Notre équipe est à votre disposition pour vous répondre à toutes vos questions et vous conseiller au mieux
-        sur les selections de produits ou quelconque demandes.
-     </p>
-      </section>
+    <aside class="desktop">
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="ventes.html">Ventes</a></li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <footer>
+        <nav>
+            <ul>
+                <li><h3>Matcha Tea</h3></li>
+                <li>Conditions d'utilisation</li>
+                <li>Politique d'expédition</li>
+                <li>Politique de remboursements</li>
+                <li>Politique de confidentialité</li>
+                <li>Mentions légales</li>
+            </ul>
 
-<!------------------------------FOOTER--------------------------------------------------------->
-<footer>
-    <nav>
-        <ul>
-            <li><h3>Matcha Tea</h3></li>
-            <li>Conditions d'utilisation</li>
-            <li>Politique d'expédition</li>
-            <li>Politique de remboursements</li>
-            <li>Politique de confidentialité</li>
-            <li>Mentions légales</li>
-        </ul>
+            <ul>
+                <li><h3>Informations</h3></li>
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>Suivi de commandes</li>
 
-        <ul>
-            <li><h3>Informations</h3></li>
-            <li>Contact</li>
-            <li>FAQ</li>
-            <li>Suivi de commandes</li>
+            </ul>
 
-        </ul>
-
-        <ul>
-            <li><h3>Boutique</h3></li>
-            <li>88 Rue M. Berliet 69008 Lyon</li>
-            <li>Ouvert du Lundi au Vendredi de 9h à 18h</li>
-            <li><i class="fa-solid fa-phone"></i> 09 59 97 80 00</li>
-            <box-icon type='logo' name='linkedin-square'></box-icon>
-            <box-icon name='envelope' type='solid' ></box-icon>
-            <box-icon name='instagram-alt' type='logo' ></box-icon>
-        </ul>
-    </nav>
-</footer>
-
-
+            <ul>
+                <li><h3>Boutique</h3></li>
+                <li>88 Rue M. Berliet 69008 Lyon</li>
+                <li>Ouvert du Lundi au Vendredi de 9h à 18h</li>
+                <li><i class="fa-solid fa-phone"></i> 09 59 97 80 00</li>
+                <li>Politique de confidentialité</li>
+                <li>Mentions légales</li>
+                <box-icon type='logo' name='linkedin'></box-icon>
+                <box-icon name='envelope' type='solid' ></box-icon>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>
