@@ -1,0 +1,69 @@
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .desktop
+    {
+        display: none;
+    }
+ 
+
+   
+}
+@media (min-width: 768px) {
+
+    .mobile
+    {
+        display: none;
+    }
+
+    aside nav {
+        height: 100%;
+        width: 100%;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        transform: rotate(-180deg);
+
+      }
+      aside nav ul
+      {
+        background-color: #e8eee8;
+        color: black;
+        padding: 5%;
+      }
+}
+
+
+/* Style for both devices */
+ul
+{
+    margin: 0;
+}
+
+h1
+{
+    font-family: "Kaushan Script";
+    font-size: 1.3rem;
+}
+a, p
+{
+    font-family: "Lato";
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+header
+{
+    color: white;
+    background-color: #185519;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
