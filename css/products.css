@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 50px;
+    gap: 40px;
+}
+
+.title-products {
+    background-image: url(../assets/products/homeback.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 80%;
+    z-index: 1;
+}
+
+
+.title-products h2 {
+    width: 100%;
+    height: 500px;
+    font-weight: 400;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container_grid div {
+    border: 1px solid black;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.container_grid img {
+    width: 200px;
+}
