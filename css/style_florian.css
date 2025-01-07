@@ -18,6 +18,10 @@
         display: none;
     }
 
+    aside
+    {
+        width: 5%;
+    }
     aside nav {
         height: 100%;
         width: 100%;
