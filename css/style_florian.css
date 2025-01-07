@@ -18,10 +18,10 @@
         display: none;
     }
 
-    aside
-    {
+    aside {
         width: 5%;
     }
+
     aside nav {
         height: 100%;
         width: 100%;
@@ -52,11 +52,12 @@ ul {
     margin: 0;
     list-style: none;
 }
-ul li div i
-{
+
+ul li div i {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 h1 {
     font-family: "Kaushan Script";
     font-size: 1.3rem;

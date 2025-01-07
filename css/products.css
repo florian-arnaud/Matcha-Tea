@@ -5,12 +5,13 @@
 }
 
 .container_grid {
-    display: grid;
-    column-gap: 50px;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
     margin: 50px;
     gap: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
 }
 
 .title-products {
@@ -22,7 +23,7 @@
     z-index: 1;
 }
 
-
+/* Style du titre à l'intérieur de .title-products */
 .title-products h2 {
     width: 100%;
     height: 500px;
@@ -34,13 +35,78 @@
     color: white;
 }
 
-.container_grid div {
-    border: 1px solid black;
-
-    font-size: 30px;
-    text-align: center;
+@media (max-width: 1000px) and (min-width: 300px) {
+    .title-products h2 {
+        height: 440px;
+        font-size: 30px;
+        font-weight: 800;
+    }
 }
 
-.container_grid img {
-    width: 200px;
+@media (max-width: 600px) and (min-width: 300px) {
+    .title-products h2 {
+        height: 440px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* Style des éléments de produit */
+.product-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des images de produit */
+.product-item img {
+    max-width: 80%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+
+.product-item img:hover {
+    transform: scale(1.05);
+}
+
+
+.product-item p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.product-price {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 15px;
+
+    padding: 5px;
+
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.product-item:hover .product-price {
+    color: #185519;
 }
