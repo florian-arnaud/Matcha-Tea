@@ -11,7 +11,26 @@
     }
 
 }
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+main
+{
+    width: 100%;
+}
 
+section 
+{
+    display: flex;
+    justify-content: space-around;
+}
+main h2
+{
+    font-family: "Kaushan Script";
+    text-align: center;
+}
 @media (min-width: 768px) {
 
     .mobile {
@@ -88,5 +107,6 @@ aside nav ul {
 footer {
     background-color: #e8eee8;
     font-family: "Lato";
-    bottom: 0;
+    padding-bottom: 1%;
+
 }
