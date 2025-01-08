@@ -118,14 +118,20 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #77f059;
-    max-width: 400px;
-    width: 50%;
-    
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top:150px ;
+    left: 800px;
+    font-size: xx-large;
 }
 
 .contact-form-container h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    text-align: center;
+    font-family: cursive;
 }
 
 .form-group {
@@ -135,42 +141,36 @@ button:hover {
 label {
     font-weight: bold;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 input, select, textarea {
-    width: 100%;
+    width: 80%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 textarea {
     resize: none;
-    height: 80px; /* Hauteur réduite */
+    height: 90px; /* Hauteur réduite */
 }
 
 button {
-    background-color: #77f059;
+    background-color: #a4e495;
     border: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+ 
 }
 
 button:hover {
     background-color: #5fc047;
 }
 
-.cont {
-    margin-top: 20px;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
-}
+
 
 .cont h1 {
     font-size: 1.5rem;
@@ -181,43 +181,49 @@ button:hover {
 
 /* SECTION BOX */
 .box h1 {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .box p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   
 }
 
 .Contactez {
-    position: relative;          /* Permet de déplacer l'élément par rapport à sa position normale */
-    top: -50px;              
-    right: -50px;                
+    position: absolute;          /* Permet de déplacer l'élément par rapport à sa position normale */
+    top: 600px;              
+    left: 180px;                
     padding: 20px;
     border: 1px solid #77f059;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     max-width: 400px;            /* Ajuste la largeur */
+    font-size: x-large;
 }
 img {
-    width: 300px;         
-    height: auto;        
+    width: 500px;         
+    height: 600px;        
     object-fit: contain;    
     border-radius: 10px;  
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
 }
+
 .slider {
-    position: relative;
+    position: absolute;
     width: 100%;
     max-width: 600px;
     overflow: hidden;
     border-radius: 10px;
+    top: 150px;
+    left: 180px;
 }
 
 .slides {
     display: flex;
     width: 300%;
-    animation: slide 10s infinite;
+    animation: slide 7s infinite;
 }
 
 .slides img {
