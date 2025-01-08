@@ -10,30 +10,27 @@
         flex-direction: column;
     }
 
-    section
-    {
+    section {
         flex-direction: column;
     }
 
-    .card img
-{
-    width: 250px;
-    height: 250px;
-}
-article
-{
-    width: 250px;
-    font-family: "Lato";
-    margin-bottom: 5%;
+    .card img {
+        width: 250px;
+        height: 250px;
+    }
+
+    article {
+        width: 250px;
+        font-family: "Lato";
+        margin-bottom: 5%;
 
 
-}
+    }
 
-section 
-{
+    section {
 
-    align-items: center;
-}
+        align-items: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -42,8 +39,7 @@ section
         display: none;
     }
 
-    aside
-    {
+    aside {
         width: 5%;
         background-color: #e8eee8;
         display: flex;
@@ -52,6 +48,7 @@ section
 
 
     }
+
     aside nav {
         height: 100%;
         writing-mode: vertical-rl;
@@ -59,16 +56,15 @@ section
         transform: rotate(-180deg);
     }
 
-    section
-    {
+    section {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         margin-bottom: 5%;
 
     }
-    main
-    {
+
+    main {
         margin: auto;
     }
 
@@ -86,17 +82,16 @@ section
         justify-content: space-around;
     }
 
-    .card img
-{
-    width: 300px;
-    height: 300px;
-}
-article
-{
-    width: 300px;
-    font-family: "Lato";
-    text-align: center;
-}
+    .card img {
+        width: 300px;
+        height: 300px;
+    }
+
+    article {
+        width: 300px;
+        font-family: "Lato";
+        text-align: center;
+    }
 }
 
 
@@ -104,23 +99,21 @@ article
 /* Style for both devices */
 /* Small changes : Font, decoration, color */
 
-.container
-{
+.container {
     display: flex;
     justify-content: space-between;
 }
-main
-{
+
+main {
     width: 100%;
 }
 
-section 
-{
+section {
     display: flex;
     justify-content: space-around;
 }
-main h2
-{
+
+main h2 {
     font-family: "Kaushan Script";
     text-align: center;
 }
@@ -130,11 +123,12 @@ ul {
     margin: 0;
     list-style: none;
 }
-ul li div i
-{
+
+ul li div i {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 h1 {
     font-family: "Kaushan Script";
     font-size: 1.3rem;
@@ -176,31 +170,30 @@ button {
     color: white;
 }
 
-h3
-
-{
+h3 {
     color: #185519;
 }
-.service-icon
-{
+
+.service-icon {
     font-size: 36px;
     color: #185519;
 }
-.card
-{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
-.card-container
-{
+
+.card-container {
     padding: 10px;
 
 }
-#services
-{
+
+#services {
     padding: 20px;
 
 }
+
 footer {
     background-color: #e8eee8;
     font-family: "Lato";
