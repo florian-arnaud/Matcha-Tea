@@ -34,7 +34,7 @@
     aside nav ul {
         background-color: #e8eee8;
         color: black;
-        padding: 5%;
+        width: 100%;
     }
 
     footer nav {
