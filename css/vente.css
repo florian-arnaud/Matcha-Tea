@@ -1,17 +1,27 @@
+@import url(./normalize.css);
+@import url(./style_florian.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container_grid {
-    margin: 50px;
-    gap: 40px;
+.container_products {}
 
+.container {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+
+}
+
+.container_grid {
+    gap: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 6fr));
+    padding-top: 30px;
 }
 
 .title-products {
@@ -23,7 +33,6 @@
     z-index: 1;
 }
 
-/* Style du titre à l'intérieur de .title-products */
 .title-products h2 {
     width: 100%;
     height: 500px;
@@ -51,6 +60,34 @@
     }
 }
 
+.product_selection {
+    margin: 90px;
+}
+
+.product_selection h3 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product_selection p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.product_selection a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.product_selection:hover a {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: #185519;
+}
+
 /* Style des éléments de produit */
 .product-item {
     background-color: white;
@@ -72,13 +109,12 @@
 
 /* Style des images de produit */
 .product-item img {
-    max-width: 80%;
+    max-width: 60%;
     border-radius: 5px;
     margin-bottom: 15px;
-
     transition: transform 0.3s ease;
+    overflow: hidden;
 }
-
 
 .product-item img:hover {
     transform: scale(1.05);
@@ -86,7 +122,7 @@
 
 
 .product-item p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: #333;
     margin-top: 10px;
