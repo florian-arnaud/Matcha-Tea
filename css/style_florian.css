@@ -10,7 +10,99 @@
         flex-direction: column;
     }
 
+    section
+    {
+        flex-direction: column;
+    }
+
+    .card img
+{
+    width: 250px;
+    height: 250px;
 }
+article
+{
+    width: 250px;
+    font-family: "Lato";
+    margin-bottom: 5%;
+
+
+}
+
+section 
+{
+
+    align-items: center;
+}
+}
+
+@media (min-width: 768px) {
+
+    .mobile {
+        display: none;
+    }
+
+    aside
+    {
+        width: 5%;
+        background-color: #e8eee8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    aside nav {
+        height: 100%;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        transform: rotate(-180deg);
+    }
+
+    section
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+
+    }
+    main
+    {
+        margin: auto;
+    }
+
+
+
+    aside nav ul {
+        color: black;
+
+
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card img
+{
+    width: 300px;
+    height: 300px;
+}
+article
+{
+    width: 300px;
+    font-family: "Lato";
+}
+}
+
+
+
+/* Style for both devices */
+/* Small changes : Font, decoration, color */
+
 .container
 {
     display: flex;
@@ -31,42 +123,8 @@ main h2
     font-family: "Kaushan Script";
     text-align: center;
 }
-@media (min-width: 768px) {
-
-    .mobile {
-        display: none;
-    }
-
-    aside
-    {
-        width: 5%;
-    }
-    aside nav {
-        height: 100%;
-        width: 100%;
-        writing-mode: vertical-rl;
-        text-orientation: sideways;
-        transform: rotate(-180deg);
-
-    }
-
-    aside nav ul {
-        background-color: #e8eee8;
-        color: black;
-        padding: 5%;
-    }
-
-    footer nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-}
 
 
-
-/* Style for both devices */
 ul {
     margin: 0;
     list-style: none;
@@ -82,7 +140,8 @@ h1 {
 }
 
 a,
-p {
+p,
+h3 {
     font-family: "Lato";
 }
 
@@ -96,6 +155,7 @@ header {
     background-color: #185519;
 }
 
+/* Elements position and size*/
 header ul,
 aside nav ul {
 
@@ -104,6 +164,32 @@ aside nav ul {
     align-items: center;
 }
 
+
+button {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: #3b7b31;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3
+
+{
+    color: #185519;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card-container
+{
+    padding: 10px;
+
+}
 footer {
     background-color: #e8eee8;
     font-family: "Lato";
