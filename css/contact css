@@ -8,73 +8,6 @@
     footer nav {
         display: flex;
         flex-direction: column;
-       
-    }
-
-}
-
-@media (min-width: 768px) {
-
-    .mobile {
-        display: none;
-    }
-
-    aside nav {
-        height: 100%;
-        width: 100%;
-        writing-mode: vertical-rl;
-        text-orientation: sideways;
-        transform: rotate(-180deg);
-
-    }
-    
-    aside nav ul {
-        background-color: #e8eee8;
-        color: black;
-        padding: 5%;
-    }
-
-    footer nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-}
-
-
-
-/* Style for both devices */
-ul {
-    margin: 0;
-    list-style: none;
-}
-
-h1 {
-    font-family: "Kaushan Script";
-    font-size: 1.3rem;
-}
-
-a,
-p {
-    font-family: "Lato";
-}
-
-ul li a {
-    text-decoration: none;
-    color: inherit;
-   
-}
-/* Media Queries */
-
-@media (max-width: 768px) {
-    .desktop {
-        display: none;
-    }
-
-    footer nav {
-        display: flex;
-        flex-direction: column;
     }
 
     section {
@@ -267,6 +200,7 @@ footer {
     padding-bottom: 1%;
 
 }
+/* FORMULAIRE CONTACTE */
 .form-box {
     background-color: #f6fcf7; 
     border: 1px solid #16e744;   
@@ -306,7 +240,11 @@ footer {
 .form-group button:hover {
     background-color: #45a049; 
 }
+/*FIN FORMULAIRE CONTACTE */
 
+
+
+/* BOX CONTACT  */
 .boxi{
     background: linear-gradient(135deg, #d0e2d0, #4f644c);  /* Dégradé de couleur */
     border-radius: 15px;                              
@@ -337,61 +275,5 @@ footer {
     transform: translateY(-8px);                         /* Légère élévation  */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);         /* Ombre plus marquée quand la souris passe */
 }
+/* FIN BOX CONTACT  */
 
-
-
-header {
-    color: white;
-    background-color: #185519;
-}
-
-header ul,
-aside nav ul {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-}
-
-footer {
-    background-color: #e8eee8;
-    font-family: "Lato";
-    padding: 20px;
-    text-align: center;
- 
-   
-}
-footer nav{
-    height: 300px;
-}
- aside nav .Contactez{
-    margin-top: auto;     
- }
- 
-
- #payment-icons {
-    display: flex;
-   
-    gap: 15px;
-  
-    margin-top: -60px; /* Déplacement vers le haut */
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  
-}
-
-#payment-icons img {
-    width: 50px; 
-    height: 50px; 
-    object-fit: contain; /* Assure que l'image garde son ratio sans déformation */
-    filter: grayscale(50%);
-    transition: filter 0.3s ease, transform 0.3s ease;
-}
-
-#payment-icons img:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
-}
