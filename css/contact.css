@@ -194,16 +194,30 @@ h3 {
 
 }
 
+<<<<<<< HEAD
 
+=======
+footer {
+    background-color: #e8eee8;
+    font-family: "Lato";
+    padding-bottom: 1%;
+
+}
+>>>>>>> e367303a05a888a1c585354dffaca73f2d520ac0
 /* FORMULAIRE CONTACTE */
 .form-box {
     background-color: #f6fcf7; 
     border: 1px solid #16e744;   
     padding: 20px;             
     border-radius: 8px;      
+<<<<<<< HEAD
     width: 500px;        
     margin: 0 auto;    
     height: 620px;     
+=======
+    max-width: 600px;        
+    margin: 0 auto;         
+>>>>>>> e367303a05a888a1c585354dffaca73f2d520ac0
 }
 
 .form-group {
@@ -214,6 +228,7 @@ h3 {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .form-group input, .form-group select {
     width: 100%;               
     padding: 8px;             
@@ -229,6 +244,17 @@ h3 {
     border: 1px solid #ddd;  
     border-radius: 4px;     
     text-align: center;
+=======
+.form-group input, .form-group select, .form-group textarea {
+    width: 70%;               
+    padding: 8px;             
+    border: 1px solid #ddd;  
+    border-radius: 4px;     
+}
+
+.form-group textarea {
+    height: 80px;           
+>>>>>>> e367303a05a888a1c585354dffaca73f2d520ac0
 }
 
 .form-group button {
@@ -246,7 +272,11 @@ h3 {
 
 
 
+<<<<<<< HEAD
 /* BOX CONTACTEZ-NOUS  */
+=======
+/* BOX CONTACT  */
+>>>>>>> e367303a05a888a1c585354dffaca73f2d520ac0
 .boxi{
     background: linear-gradient(135deg, #d0e2d0, #4f644c);  /* Dégradé de couleur */
     border-radius: 15px;                              
@@ -277,5 +307,9 @@ h3 {
     transform: translateY(-8px);                         /* Légère élévation  */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);         /* Ombre plus marquée quand la souris passe */
 }
+<<<<<<< HEAD
 /* FIN BOX CONTACTEZ-NOUS  */
+=======
+/* FIN BOX CONTACT  */
+>>>>>>> e367303a05a888a1c585354dffaca73f2d520ac0
 
