@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/style_florian.css">
     <link rel="stylesheet" href="../css/histoire.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/fadd7373cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main class="container">
-        <h1>À Propos de Matcha Tea</h1>
+    <header>
+        <nav class="mobile">
+            <ul>
+                <li><i class="fa-solid fa-bars"></i></li>
+                <li>
+                    <a href="index.html">
+                        <h1>Matcha Tea</h1>
+                    </a>
+                </li>
+                <li>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <header class="desktop">
+        <ul>
+
+            <li>
+                <a href="../index.html">
+                    <h1>Matcha Tea</h1>
+                </a>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </li>
+
+        </ul>
+    </header>
+    <div class="container">
+        <aside class="desktop">
+            <nav>
+                <ul>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/apropos.html">À propos</a></li>
+                    <li><a href="pages/histoire.html">Histoire</a></li>
+                    <li><a href="pages/vente.html">Ventes</a></li>
+                </ul>
+            </nav>
+        </aside>
+    <main>
+        <h2>À Propos de Matcha Tea</h1>
 
 
 
@@ -22,11 +78,11 @@
         
                 <img class="photo_matcha" src="../assets/histoire/matcha4.jpg"width=300px alt="picture" >
     
-        <h2>Notre Engagement</h2>
+        <h3>Notre Engagement</h2>
     
         <p>Matcha Tea ne fait aucune concession sur la qualité et l’origine de son thé matcha. Chaque étape de production est exclusivement réalisée au Japon : le matcha, les arômes et le conditionnement. Chaque production est testée qui garantit une absence totale de présence de pesticides dans nos produits.</p>
     
-        <h2>Pourquoi choisir le thé matcha ?</h2>
+        <h3>Pourquoi choisir le thé matcha ?</h3>
     
         <p>De façon non exhaustive, voici quelques-unes des propriétés du thé matcha :</p>
         <p>- Grâce à la théanine qu’il contient, il apporte une énergie douce et constitue une bonne alternative au café.</p>
@@ -36,7 +92,7 @@
         <p>- Il accroît les performances sportives et aide l’organisme à récupérer après l’effort. Ceci est principalement dû à la haute teneur en antioxydants qui favorisent l’oxygénation des muscles. </p>
         <p>-Il permet également de réguler la production d’acide lactique, responsable des crampes musculaires.</p>
     
-        <h2>Nos services :</h2>
+        <h3>Nos services :</h3>
     
         <p>
             1 - Vente de matcha : Matcha Tea offre un service de vente de matcha de qualité nature ou parfumé. Que ce soit une occasion pour déguster seul ou en groupe notre thé matcha, notre équipe vous offre le meilleur du thé matcha venu directement d’une petite entreprise au Japon.</p>
@@ -44,7 +100,7 @@
     
             <img src="../assets/histoire/matcha1.jpg"width=300px alt="picture" >
     
-        <h2>Son histoire</h2>
+        <h3>Son histoire</h3>
     
         <p>Le matcha vient de Chine lors de la dynastie Sui, sous le nom de « mocha » (chinois, littéralement « thé en poudre »).</p>
         <p>Cette tradition est arrivées à son apogée sous les dynasties Tang (7ème-10ème siècle) et Song (10-13ème siècle). La préparation et la consommation de ce thé devint un rituel du bouddhisme Chan, étant bu dans un bol commun en guise de sacrement.</p>
@@ -52,7 +108,7 @@
     
             <img src="../assets/histoire/matcha2.webp"width=300px alt="picture" >
     
-        <h2>Sa production</h2>
+        <h3>Sa production</h3>
     
         <p>La production du matcha commence quelques semaines avant la récolte, lorsque les buissons de thé sont couverts pour les protéger de la lumière directe du soleil. Cela ralentit la croissance de la plante, rend ses feuilles plus sombres et entraîne la production d’acides animés qui adouciront le goût du thé.</p>
         <p>Pour obtenir du matcha, il faut déplier les feuilles pour le séchage. Ainsi, elles vont quelque peu s'émietter et produire du tencha. Le tencha peut ensuite être moulu en une poudre très fine, d'un vert clair ; c’est ainsi que l’on obtient du matcha.</p>
@@ -61,13 +117,46 @@
     
             <img src="../assets/histoire/matcha3.webp"width=300px alt="picture" >
     
-        <h2>Sa préparation</h2>
+        <h3>Sa préparation</h3>
     
         <p>Le matcha doit être tamisé avant d'être mélangé à l'eau. On utilise à cette fin des tamis spéciaux, généralement en acier inoxidable, au maillage serré, et incluant un réceptacle provisoire. Pour faire passer le thé à travers le tamis, on peut utiliser une spatule de bois spéciale ou placer une pierre polie sur le tamis et le secouer doucement.
         <p>Une petite quantité de matcha est placée dans le bol avec une petite quantité d'eau non bouillante, idéalement à 70°C, par la suite. Il faut ensuite secouer la mixture avec un fouet en bambou, jusqu'à l'obtention d'un liquide de consistance uniforme.</p>
         <p>Idéalement, aucune trace de poudre de thé ne devrait subsister sur les bords du bol.</p>
     </main>
-    
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <h3>Matcha Tea</h3>
+                </li>
+                <li>Conditions d'utilisation</li>
+                <li>Politique d'expédition</li>
+                <li>Politique de remboursements</li>
+                <li>Politique de confidentialité</li>
+                <li>Mentions légales</li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>Informations</h3>
+                </li>
+                <li>Contact</li>
+                <li>FAQ</li>
+                <li>Suivi de commandes</li>
+
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>Boutique</h3>
+                </li>
+                <li>88 Rue M. Berliet 69008 Lyon</li>
+                <li>Ouvert du Lundi au Vendredi de 9h à 18h</li>
+                <li><i class="fa-solid fa-phone"></i> 09 59 97 80 00</li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 

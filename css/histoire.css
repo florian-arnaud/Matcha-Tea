@@ -5,13 +5,18 @@ h1 {
    align-items: center;
 }
 
-h2 {
+h2, div main h3 {
     font-size: 35px;
     display: flex; 
     justify-content: center;
     align-items: center;
  }
-
+main h3
+{
+    font-family: "Kaushan Script";
+    color: inherit;
+    font-size: 2rem;
+}
 /*img {
    display: flex; 
     justify-content: center;
